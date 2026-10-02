@@ -166,42 +166,6 @@ python main.py
 
 ---
 
-## 🏗️ Project Structure
-
-```
-shopsmart-multi-agent/
-├── agents/
-│   ├── supervisor.py        # Routing + classification
-│   ├── order_agent.py
-│   ├── returns_agent.py
-│   ├── billing_agent.py
-│   └── product_agent.py
-├── tools/
-│   ├── order_tools.py
-│   ├── returns_tools.py
-│   ├── billing_tools.py
-│   ├── product_tools.py
-│   ├── policy_lookup.py     # FAISS + RAG
-│   └── pii_redactor.py
-├── graph/
-│   ├── builder.py           # LangGraph state graph
-│   ├── nodes.py
-│   └── edges.py
-├── data/
-│   ├── customers.json
-│   ├── orders.json
-│   ├── products.json
-│   ├── tickets.json
-│   └── policies.txt
-├── memory/
-│   ├── thread_store.py      # InMemorySaver
-│   └── cross_session.py     # InMemoryStore
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🛡️ Safety & Compliance
 
